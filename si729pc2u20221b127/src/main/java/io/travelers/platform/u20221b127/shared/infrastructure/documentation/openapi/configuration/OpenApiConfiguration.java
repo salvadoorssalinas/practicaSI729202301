@@ -21,14 +21,14 @@ public class OpenApiConfiguration {
         var openApi = new OpenAPI();
         openApi
                 .info(new Info()
-                        .title("ACME Learning Platform API - UPC")
-                        .description("ACME Learning Platform application REST API documentation.")
+                        .title("TRAVELERS API - UPC")
+                        .description("TRAVELERS REST API documentation.")
                         .version("v1.0.0")
                         .license(new License().name("Apache 2.0")
                                 .url("https://springdoc.org")))
                 .externalDocs(new ExternalDocumentation()
-                        .description("ACME Learning Platform wiki Documentation")
-                        .url("https://acme-learning-platform.wiki.github.io/docs"));
+                        .description("TRAVELERS wiki Documentation")
+                        .url("https://travelers.wiki.github.io/docs"));
         return openApi;
     }
 }

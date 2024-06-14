@@ -25,6 +25,7 @@ import java.util.List;
  *     It also provides endpoints for searching and filtering businesses.
  * </p>
  * @author Salvador Salinas
+ * @version 1.0
  */
 
 @RestController
